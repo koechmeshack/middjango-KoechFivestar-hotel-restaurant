@@ -1,0 +1,19 @@
+from django.shortcuts import render
+def index(request):
+    return render(request,'index.html')
+def booking(request):
+    return render(request,'booking.html')
+def gallery(request):
+    return render(request,'gallery.html')
+def restaurant(request):
+    return render(request,'restaurant.html')
+def testimonial(request):
+    return render(request,'testimonial.html')
+def services(request):
+    return render(request,'services.html')
+def login(request):
+    return render(request,'login.html')
+def signup(request):
+    return render(request,'signup.html')
+def edit(request):
+    return render(request,'Edit.html')
